@@ -150,7 +150,7 @@ color: red;
     font-weight: bold;
     font-size: 30px;
     border-radius: 30px;
-    text-decoration: none;
+    text-decoration: none; 
     transform: translateY(500px) translateX(355px);
 }
 
@@ -172,6 +172,40 @@ color: red;
 }
 
 .dw-vape:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0); 
+}
+
+.dw-blockblast {
+    display: inline-block;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transform: translateY(500px) translateX(80%);
+}
+
+.dw-blockblast:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0); 
+}
+
+.dw-188 {
+    display: inline-block;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transform: translateY(550px) translateX(-25%);
+}
+
+.dw-188:hover {
     color: rgb(255, 255, 255);
     transition: 0.5s;
     background-color: rgb(0, 0, 0); 
